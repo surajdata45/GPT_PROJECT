@@ -15,20 +15,20 @@ PWGPT is an AI-powered chat application that allows users to interact with a con
 Before you begin, ensure you have the following installed:
 
 - Anaconda or Miniconda
-- Python 3.11
+- Python 3.14
 
 ### **Setup Instructions:**
 
 1. Create a Conda Environment:
    - Run the following command to create a new Conda environment named `gptenv` with Python 3.11:
      ```
-     conda create -n gptenv python==3.11 -y
+     python -m venv gptenv
      ```
 
 2. Activate the Environment:
    - Activate the newly created environment with:
      ```
-     conda activate gptenv
+     gptenv\Scripts\activate
      ```
 
 3. Install Requirements:
